@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">魔豆</string>
+    <string name="action_settings">Settings</string>
+
+    <!--通用-->
+    <string name="loading">正在加载...</string>
+    <string name="tip">提示</string>
+    <string name="sure">确定</string>
+    <string name="cancel">取消</string>
+
+    <!--AndPermission-->
+    <string name="permission_name_calendar">Calendar</string>
+    <string name="permission_name_camera">Camera</string>
+    <string name="permission_name_contacts">Contacts</string>
+    <string name="permission_name_location">Location</string>
+    <string name="permission_name_microphone">Microphone</string>
+    <string name="permission_name_phone">Phone</string>
+    <string name="permission_name_sensors">Body Sensors</string>
+    <string name="permission_name_sms">SMS</string>
+    <string name="permission_name_storage">Storage</string>
+    <string name="setting">设置</string>
+    <string name="no">不</string>
+    <string name="title_dialog">提示</string>
+    <string name="message_permission_rationale">允许以下权限以便程序继续执行：\n\n%1$s</string>
+    <string name="message_permission_always_failed">我们需要以下权限，请在设置中为我们开启：\n\n%1$s</string>
+    <string name="user_centre">用户中心</string>
+    <string name="message">消息</string>
+    <string name="life">社区商圈</string>
+    <string name="mine_centre">个人中心</string>
+
+</resources>

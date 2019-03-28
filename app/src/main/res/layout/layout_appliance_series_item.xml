@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_appliance_name"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_50px"
+    android:gravity="center"
+    android:text="电脑"
+    android:textSize="@dimen/text_14px"
+    android:textColor="@color/default_text_color"
+    android:background="@drawable/selector_onclick"/>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_40px"
+        android:layout_marginLeft="@dimen/dimen_16px"
+        android:layout_marginTop="@dimen/dimen_8px"
+        android:layout_marginRight="@dimen/dimen_16px">
+
+        <TextView
+            android:id="@+id/tv_bill_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="五月份"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_16px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="2018-5-8"
+            android:textColor="@color/default_hint_color"
+            android:textSize="@dimen/text_12px" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/view_line" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_16px">
+
+        <TextView
+            android:id="@+id/tv_bill_room_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="融合上水绿城1栋103"
+            android:textColor="@color/default_text_color"
+            android:textSize="@dimen/text_14px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="¥310.00"
+            android:textColor="@color/default_text_color"
+            android:textSize="@dimen/text_14px" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_bill_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen_16px"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_bill_water_rate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="水费"
+                android:textColor="@color/default_hint_color"
+                android:textSize="@dimen/text_12px" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="¥310.00"
+                android:textColor="@color/default_hint_color"
+                android:textSize="@dimen/text_12px" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_8px">
+
+            <TextView
+                android:id="@+id/tv_bill_electric_rate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="电费"
+                android:textColor="@color/default_hint_color"
+                android:textSize="@dimen/text_12px" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="¥310.00"
+                android:textColor="@color/default_hint_color"
+                android:textSize="@dimen/text_12px" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_8px">
+
+            <TextView
+                android:id="@+id/tv_bill_management_rate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="物业管理费"
+                android:textColor="@color/default_hint_color"
+                android:textSize="@dimen/text_12px" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="¥310.00"
+                android:textColor="@color/default_hint_color"
+                android:textSize="@dimen/text_12px" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_8px">
+
+            <TextView
+                android:id="@+id/tv_bill_clearance_rate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="垃圾清运费"
+                android:textColor="@color/default_hint_color"
+                android:textSize="@dimen/text_12px" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="¥310.00"
+                android:textColor="@color/default_hint_color"
+                android:textSize="@dimen/text_12px" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_look_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimen_16px"
+        android:layout_gravity="center"
+        android:text="查看详情"
+        android:textSize="@dimen/text_14px"
+        android:textColor="@color/default_text_color"/>
+
+</LinearLayout>

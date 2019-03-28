@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="color" name="tl_divider_color"/>
+    <attr format="dimension" name="tl_divider_padding"/>
+    <attr format="dimension" name="tl_divider_width"/>
+    <attr format="integer" name="tl_indicator_anim_duration"/>
+    <attr format="boolean" name="tl_indicator_anim_enable"/>
+    <attr format="boolean" name="tl_indicator_bounce_enable"/>
+    <attr format="color" name="tl_indicator_color"/>
+    <attr format="dimension" name="tl_indicator_corner_radius"/>
+    <attr format="enum" name="tl_indicator_gravity">
+        <enum name="TOP" value="48"/>
+        <enum name="BOTTOM" value="80"/>
+    </attr>
+    <attr format="dimension" name="tl_indicator_height"/>
+    <attr format="dimension" name="tl_indicator_margin_bottom"/>
+    <attr format="dimension" name="tl_indicator_margin_left"/>
+    <attr format="dimension" name="tl_indicator_margin_right"/>
+    <attr format="dimension" name="tl_indicator_margin_top"/>
+    <attr format="enum" name="tl_indicator_style">
+        <enum name="NORMAL" value="0"/>
+        <enum name="TRIANGLE" value="1"/>
+        <enum name="BLOCK" value="2"/>
+    </attr>
+    <attr format="dimension" name="tl_indicator_width"/>
+    <attr format="boolean" name="tl_indicator_width_equal_title"/>
+    <attr format="dimension" name="tl_tab_padding"/>
+    <attr format="boolean" name="tl_tab_space_equal"/>
+    <attr format="dimension" name="tl_tab_width"/>
+    <attr format="boolean" name="tl_textAllCaps"/>
+    <attr format="enum" name="tl_textBold">
+        <enum name="NONE" value="0"/>
+        <enum name="SELECT" value="1"/>
+        <enum name="BOTH" value="2"/>
+    </attr>
+    <attr format="color" name="tl_textSelectColor"/>
+    <attr format="color" name="tl_textUnselectColor"/>
+    <attr format="dimension" name="tl_textsize"/>
+    <attr format="color" name="tl_underline_color"/>
+    <attr format="enum" name="tl_underline_gravity">
+        <enum name="TOP" value="48"/>
+        <enum name="BOTTOM" value="80"/>
+    </attr>
+    <attr format="dimension" name="tl_underline_height"/>
+    <color name="blue_btn_bg_color">#AEDEF4</color>
+    <color name="blue_btn_bg_pressed_color">#96BFD2</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="error_stroke_color">#F27474</color>
+    <color name="float_transparent">#00000000</color>
+    <color name="gray_btn_bg_color">#D0D0D0</color>
+    <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
+    <color name="kprogresshud_default_color">#b1000000</color>
+    <color name="kprogresshud_grey_color">#449E9E9E</color>
+    <color name="pickerview_bgColor_overlay">#60000000</color>
+    <color name="pickerview_bg_topbar">#f5f5f5</color>
+    <color name="pickerview_timebtn_nor">#057dff</color>
+    <color name="pickerview_timebtn_pre">#c2daf5</color>
+    <color name="pickerview_topbar_title">#000000</color>
+    <color name="red_btn_bg_color">#DD6B55</color>
+    <color name="red_btn_bg_pressed_color">#CD5B55</color>
+    <color name="success_stroke_color">#A5DC86</color>
+    <color name="sweet_dialog_bg_color">#FFFFFF</color>
+    <color name="text_color">#575757</color>
+    <color name="trans_success_stroke_color">#33A5DC86</color>
+    <color name="view_line">#EBEBEB</color>
+    <color name="warning_stroke_color">#F8BB86</color>
+    <dimen name="alert_width">290dp</dimen>
+    <dimen name="common_circle_width">3dp</dimen>
+    <dimen name="pickerview_textsize">20sp</dimen>
+    <dimen name="pickerview_topbar_btn_textsize">17sp</dimen>
+    <dimen name="pickerview_topbar_height">44dp</dimen>
+    <dimen name="pickerview_topbar_padding">20dp</dimen>
+    <dimen name="pickerview_topbar_title_textsize">18sp</dimen>
+    <dimen name="progress_circle_radius">34dp</dimen>
+    <item name="banner_indicatorId" type="id"/>
+    <item name="bgaqrcode_camera_preview" type="id"/>
+    <integer name="animation_default_duration">300</integer>
+    <string name="app_name">My Library</string>
+    <string name="cube_ptr_hours_ago"> 小时之前</string>
+    <string name="cube_ptr_last_update">上次更新: </string>
+    <string name="cube_ptr_minutes_ago"> 分钟之前</string>
+    <string name="cube_ptr_pull_down">下拉</string>
+    <string name="cube_ptr_pull_down_to_refresh">下拉刷新</string>
+    <string name="cube_ptr_refresh_complete">更新完成.</string>
+    <string name="cube_ptr_refreshing">加载中...</string>
+    <string name="cube_ptr_release_to_refresh">释放刷新</string>
+    <string name="cube_ptr_seconds_ago"> 秒之前</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_default_title">提示消息!</string>
+    <string name="dialog_ok">确定</string>
+    <string name="error_view_load_error_click_to_refresh">内容加载失败\r\n点击重新加载</string>
+    <string name="error_view_loading">加载中…</string>
+    <string name="error_view_network_error_click_to_refresh">网络错误\r\n点击重新加载</string>
+    <string name="error_view_no_data">暂无内容</string>
+    <string name="listview_header_hint_normal">下拉刷新</string>
+    <string name="listview_header_hint_release">释放立即刷新</string>
+    <string name="listview_header_last_time">上次更新时间：</string>
+    <string name="listview_loading">正在加载</string>
+    <string name="loading_done">加载完成</string>
+    <string name="nomore_loading">我是有底线的</string>
+    <string name="pickerview_cancel">取消</string>
+    <string name="pickerview_day">日</string>
+    <string name="pickerview_hours">时</string>
+    <string name="pickerview_minutes">分</string>
+    <string name="pickerview_month">月</string>
+    <string name="pickerview_seconds">秒</string>
+    <string name="pickerview_submit">确定</string>
+    <string name="pickerview_year">年</string>
+    <string name="refresh_done">刷新完成</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="toast_message">Toast message</string>
+    <style name="alert_dialog" parent="android:Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@color/float_transparent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+    <style name="custom_dialog2" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- Dialog的windowFrame框为无 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否漂现在activity上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 是否半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 去除黑色边框的关键设置项 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 屏幕背景是否变暗 -->
+        <item name="android:backgroundDimAmount">0.3</item>
+    </style>
+    <style name="dialog_blue_button" parent="android:Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">31dp</item>
+        <item name="android:background">@drawable/blue_button_background</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">21dp</item>
+        <item name="android:paddingRight">21dp</item>
+        <item name="android:textColor">@color/button_text_color</item>
+    </style>
+    <style mce_bogus="1" name="pickerview_dialogAnim" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/pickerview_dialog_scale_in</item>
+        <item name="android:windowExitAnimation">@anim/pickerview_dialog_scale_out</item>
+    </style>
+    <declare-styleable name="AVLoadingIndicatorView">
+        <attr name="indicator">
+            <flag name="BallPulse" value="0"/>
+            <flag name="BallGridPulse" value="1"/>
+            <flag name="BallClipRotate" value="2"/>
+            <flag name="BallClipRotatePulse" value="3"/>
+            <flag name="SquareSpin" value="4"/>
+            <flag name="BallClipRotateMultiple" value="5"/>
+            <flag name="BallPulseRise" value="6"/>
+            <flag name="BallRotate" value="7"/>
+            <flag name="CubeTransition" value="8"/>
+            <flag name="BallZigZag" value="9"/>
+            <flag name="BallZigZagDeflect" value="10"/>
+            <flag name="BallTrianglePath" value="11"/>
+            <flag name="BallScale" value="12"/>
+            <flag name="LineScale" value="13"/>
+            <flag name="LineScaleParty" value="14"/>
+            <flag name="BallScaleMultiple" value="15"/>
+            <flag name="BallPulseSync" value="16"/>
+            <flag name="BallBeat" value="17"/>
+            <flag name="LineScalePulseOut" value="18"/>
+            <flag name="LineScalePulseOutRapid" value="19"/>
+            <flag name="BallScaleRipple" value="20"/>
+            <flag name="BallScaleRippleMultiple" value="21"/>
+            <flag name="BallSpinFadeLoader" value="22"/>
+            <flag name="LineSpinFadeLoader" value="23"/>
+            <flag name="TriangleSkewSpin" value="24"/>
+            <flag name="Pacman" value="25"/>
+            <flag name="BallGridBeat" value="26"/>
+            <flag name="SemiCircleSpin" value="27"/>
+        </attr>
+        <attr format="color" name="indicator_color"/>
+    </declare-styleable>
+    <declare-styleable name="BGABanner">
+        <!-- 指示点容器背景 -->
+        <attr format="reference|color" name="banner_pointContainerBackground"/>
+        <!-- 指示点背景 -->
+        <attr format="reference" name="banner_pointDrawable"/>
+        <!-- 指示点容器左右内间距 -->
+        <attr format="dimension" name="banner_pointContainerLeftRightPadding"/>
+        <!-- 指示点上下外间距 -->
+        <attr format="dimension" name="banner_pointTopBottomMargin"/>
+        <!-- 指示点左右外间距 -->
+        <attr format="dimension" name="banner_pointLeftRightMargin"/>
+        <!-- 指示器的位置 -->
+        <attr name="banner_indicatorGravity">
+            <flag name="top" value="0x30"/>
+            <flag name="bottom" value="0x50"/>
+            <flag name="left" value="0x03"/>
+            <flag name="right" value="0x05"/>
+            <flag name="center_horizontal" value="0x01"/>
+        </attr>
+        <!-- 是否开启自动轮播 -->
+        <attr format="boolean" name="banner_pointAutoPlayAble"/>
+        <!-- 自动轮播的时间间隔 -->
+        <attr format="integer" name="banner_pointAutoPlayInterval"/>
+        <!-- 页码切换过程的时间长度 -->
+        <attr format="integer" name="banner_pageChangeDuration"/>
+        <!-- 页面切换的动画效果 -->
+        <attr format="enum" name="banner_transitionEffect">
+            <enum name="defaultEffect" value="0"/>
+            <enum name="alpha" value="1"/>
+            <enum name="rotate" value="2"/>
+            <enum name="cube" value="3"/>
+            <enum name="flip" value="4"/>
+            <enum name="accordion" value="5"/>
+            <enum name="zoomFade" value="6"/>
+            <enum name="fade" value="7"/>
+            <enum name="zoomCenter" value="8"/>
+            <enum name="zoomStack" value="9"/>
+            <enum name="stack" value="10"/>
+            <enum name="depth" value="11"/>
+            <enum name="zoom" value="12"/>
+        </attr>
+        <!-- 提示文案的文字颜色 -->
+        <attr format="reference|color" name="banner_tipTextColor"/>
+        <!-- 提示文案的文字大小 -->
+        <attr format="dimension" name="banner_tipTextSize"/>
+        <!-- 加载网络数据时覆盖在 BGABanner 最上层的占位图 -->
+        <attr format="reference" name="banner_placeholderDrawable"/>
+        <!-- 是否是数字指示器 -->
+        <attr format="boolean" name="banner_isNumberIndicator"/>
+        <!-- 数字指示器文字颜色 -->
+        <attr format="reference|color" name="banner_numberIndicatorTextColor"/>
+        <!-- 数字指示器文字大小 -->
+        <attr format="dimension" name="banner_numberIndicatorTextSize"/>
+        <!-- 数字指示器背景 -->
+        <attr format="reference" name="banner_numberIndicatorBackground"/>
+        <!-- 当只有一页数据时是否显示指示器，默认值为 false -->
+        <attr format="boolean" name="banner_isNeedShowIndicatorOnOnlyOnePage"/>
+        <!-- 自动轮播区域距离 BGABanner 底部的距离 -->
+        <attr format="dimension" name="banner_contentBottomMargin"/>
+        <!-- 占位图缩放模式 -->
+        <attr name="android:scaleType"/>
+    </declare-styleable>
+    <declare-styleable name="CommonTabLayout">
+        <!-- indicator -->
+        <attr name="tl_indicator_color"/>
+        <attr name="tl_indicator_height"/>
+        <attr name="tl_indicator_width"/>
+        <attr name="tl_indicator_margin_left"/>
+        <attr name="tl_indicator_margin_top"/>
+        <attr name="tl_indicator_margin_right"/>
+        <attr name="tl_indicator_margin_bottom"/>
+        <attr name="tl_indicator_corner_radius"/>
+        <attr name="tl_indicator_gravity"/>
+        <attr name="tl_indicator_style"/>
+        <attr name="tl_indicator_anim_enable"/>
+        <attr name="tl_indicator_anim_duration"/>
+        <attr name="tl_indicator_bounce_enable"/>
+
+        <!-- underline -->
+        <attr name="tl_underline_color"/>
+        <attr name="tl_underline_height"/>
+        <attr name="tl_underline_gravity"/>
+
+        <!-- divider -->
+        <attr name="tl_divider_color"/>
+        <attr name="tl_divider_width"/>
+        <attr name="tl_divider_padding"/>
+
+        <!-- tab -->
+        <attr name="tl_tab_padding"/>
+        <attr name="tl_tab_space_equal"/>
+        <attr name="tl_tab_width"/>
+
+        <!-- title -->
+        <attr name="tl_textsize"/>
+        <attr name="tl_textSelectColor"/>
+        <attr name="tl_textUnselectColor"/>
+        <attr name="tl_textBold"/>
+        <attr name="tl_textAllCaps"/>
+
+        <!-- icon -->
+        <!-- 设置icon宽度 -->
+        <attr format="dimension" name="tl_iconWidth"/>
+        <!-- 设置icon高度 -->
+        <attr format="dimension" name="tl_iconHeight"/>
+        <!-- 设置icon是否可见 -->
+        <attr format="boolean" name="tl_iconVisible"/>
+        <!-- 设置icon显示位置,对应Gravity中常量值 -->
+        <attr format="enum" name="tl_iconGravity">
+            <enum name="LEFT" value="3"/>
+            <enum name="TOP" value="48"/>
+            <enum name="RIGHT" value="5"/>
+            <enum name="BOTTOM" value="80"/>
+        </attr>
+        <!-- 设置icon与文字间距 -->
+        <attr format="dimension" name="tl_iconMargin"/>
+
+    </declare-styleable>
+    <declare-styleable name="MsgView">
+        <!-- 圆角矩形背景色 -->
+        <attr format="color" name="mv_backgroundColor"/>
+        <!-- 圆角弧度,单位dp-->
+        <attr format="dimension" name="mv_cornerRadius"/>
+        <!-- 圆角弧度,单位dp-->
+        <attr format="dimension" name="mv_strokeWidth"/>
+        <!-- 圆角边框颜色-->
+        <attr format="color" name="mv_strokeColor"/>
+        <!-- 圆角弧度是高度一半-->
+        <attr format="boolean" name="mv_isRadiusHalfHeight"/>
+        <!-- 圆角矩形宽高相等,取较宽高中大值-->
+        <attr format="boolean" name="mv_isWidthHeightEqual"/>
+    </declare-styleable>
+    <declare-styleable name="ProgressWheel">
+        <attr format="boolean" name="matProg_progressIndeterminate"/>
+        <attr format="color" name="matProg_barColor"/>
+        <attr format="color" name="matProg_rimColor"/>
+        <attr format="dimension" name="matProg_rimWidth"/>
+        <attr format="float" name="matProg_spinSpeed"/>
+        <attr format="integer" name="matProg_barSpinCycleTime"/>
+        <attr format="dimension" name="matProg_circleRadius"/>
+        <attr format="boolean" name="matProg_fillRadius"/>
+        <attr format="dimension" name="matProg_barWidth"/>
+        <attr format="boolean" name="matProg_linearProgress"/>
+    </declare-styleable>
+    <declare-styleable name="PtrClassicHeader">
+        <attr format="integer" name="ptr_rotate_ani_time"/>
+    </declare-styleable>
+    <declare-styleable name="PtrFrameLayout">
+        <!-- Optional. If you put header and content in xml, you can you these to specify them. -->
+        <attr format="reference" name="ptr_header"/>
+        <attr format="reference" name="ptr_content"/>
+
+        <!-- the resistance when you are moving the frame -->
+        <attr format="float" name="ptr_resistance"/>
+
+        <!-- the ration of the height of the header to trigger refresh -->
+        <attr format="float" name="ptr_ratio_of_header_height_to_refresh"/>
+
+        <attr format="integer" name="ptr_duration_to_close"/>
+        <attr format="integer" name="ptr_duration_to_close_header"/>
+
+        <!-- pull to refresh, otherwise release to refresh, default is release to refresh -->
+        <attr format="boolean" name="ptr_pull_to_fresh"/>
+
+        <!-- keep header when refreshing-->
+        <attr format="boolean" name="ptr_keep_header_when_refresh"/>
+    </declare-styleable>
+    <declare-styleable name="QRCodeView">
+        <!-- 扫描框距离toolbar底部的距离，默认值为90dp -->
+        <attr format="dimension|reference" name="qrcv_topOffset"/>
+        <!-- 扫描框边角线的宽度，默认值为3dp -->
+        <attr format="dimension|reference" name="qrcv_cornerSize"/>
+        <!-- 扫描框边角线的长度，默认值为20dp -->
+        <attr format="dimension|reference" name="qrcv_cornerLength"/>
+        <!-- 扫描框边角线的颜色，默认值为@android:color/white -->
+        <attr format="color|reference" name="qrcv_cornerColor"/>
+        <!-- 扫描框的宽度，默认值为200dp -->
+        <attr format="dimension|reference" name="qrcv_rectWidth"/>
+        <!-- 条码扫样式描框的高度，默认值为140dp -->
+        <attr format="dimension|reference" name="qrcv_barcodeRectHeight"/>
+        <!-- 除去扫描框，其余部分阴影颜色，默认值为#33FFFFFF -->
+        <attr format="color|reference" name="qrcv_maskColor"/>
+        <!-- 扫描线的宽度，默认值为1dp -->
+        <attr format="dimension|reference" name="qrcv_scanLineSize"/>
+        <!-- 扫描线的颜色，默认值为@android:color/white -->
+        <attr format="color|reference" name="qrcv_scanLineColor"/>
+        <!-- 扫描线距离上下或者左右边框的间距，默认值为0dp -->
+        <attr format="dimension|reference" name="qrcv_scanLineMargin"/>
+        <!-- 是否显示默认的图片扫描线，默认值为false -->
+        <attr format="boolean" name="qrcv_isShowDefaultScanLineDrawable"/>
+        <!-- 扫描线的图片资源，默认值为null -->
+        <attr format="reference" name="qrcv_customScanLineDrawable"/>
+        <!-- 扫描边框的宽度，默认值为1dp -->
+        <attr format="dimension|reference" name="qrcv_borderSize"/>
+        <!-- 扫描边框的颜色，默认值为@android:color/white -->
+        <attr format="color|reference" name="qrcv_borderColor"/>
+        <!-- 扫描线从顶部移动到底部的动画时间，默认值为1000 -->
+        <attr format="integer" name="qrcv_animTime"/>
+        <!-- 扫描框是否垂直居中，该属性为true时会忽略qrcv_topOffset属性，默认值为false -->
+        <attr format="boolean" name="qrcv_isCenterVertical"/>
+        <!-- Toolbar的高度，当有设置qrcv_isCenterVertical属性时，通过该属性来修正有Toolbar时导致扫描框垂直居中的偏差，默认值为0dp -->
+        <attr format="dimension|reference" name="qrcv_toolbarHeight"/>
+        <!-- 是否是扫条形码，默认值为false -->
+        <attr format="boolean" name="qrcv_isBarcode"/>
+        <!-- 扫描二维码时的提示文案，默认值为null -->
+        <attr format="string|reference" name="qrcv_qrCodeTipText"/>
+        <!-- 扫描条码时的提示文案，默认值为null -->
+        <attr format="string|reference" name="qrcv_barCodeTipText"/>
+        <!-- 提示文案字体大小，默认值为14sp -->
+        <attr format="dimension|reference" name="qrcv_tipTextSize"/>
+        <!-- 提示文案颜色，默认值为@android:color/white -->
+        <attr format="color|reference" name="qrcv_tipTextColor"/>
+        <!-- 提示文案是否在扫描框的底部，默认值为false -->
+        <attr format="boolean" name="qrcv_isTipTextBelowRect"/>
+        <!-- 提示文案与扫描框之间的间距，默认值为20dp -->
+        <attr format="dimension|reference" name="qrcv_tipTextMargin"/>
+        <!-- 是否把提示文案作为单行显示，默认值为false -->
+        <attr format="boolean" name="qrcv_isShowTipTextAsSingleLine"/>
+        <!-- 是否显示提示文案的背景，默认值为false -->
+        <attr format="boolean" name="qrcv_isShowTipBackground"/>
+        <!-- 提示文案的背景色，默认值为#22000000 -->
+        <attr format="color|reference" name="qrcv_tipBackgroundColor"/>
+        <!-- 扫描线是否来回移动，默认值为true -->
+        <attr format="boolean" name="qrcv_isScanLineReverse"/>
+        <!-- 是否显示默认的网格图片扫描线，默认值为false -->
+        <attr format="boolean" name="qrcv_isShowDefaultGridScanLineDrawable"/>
+        <!-- 扫描线的网格图片资源，默认值为null -->
+        <attr format="reference" name="qrcv_customGridScanLineDrawable"/>
+        <!-- 是否只识别扫描框区域的二维码，默认值为false -->
+        <attr format="boolean" name="qrcv_isOnlyDecodeScanBoxArea"/>
+    </declare-styleable>
+    <declare-styleable name="Rotate3dAnimation">
+        <attr format="enum" name="rollType">
+            <enum name="x" value="0"/>
+            <enum name="y" value="1"/>
+            <enum name="z" value="2"/>
+        </attr>
+        <attr format="float" name="fromDeg"/>
+        <attr format="float" name="toDeg"/>
+        <attr format="fraction" name="pivotX"/>
+        <attr format="fraction" name="pivotY"/>
+    </declare-styleable>
+    <declare-styleable name="SegmentTabLayout">
+        <!-- indicator -->
+        <attr name="tl_indicator_color"/>
+        <attr name="tl_indicator_height"/>
+        <attr name="tl_indicator_margin_left"/>
+        <attr name="tl_indicator_margin_top"/>
+        <attr name="tl_indicator_margin_right"/>
+        <attr name="tl_indicator_margin_bottom"/>
+        <attr name="tl_indicator_corner_radius"/>
+        <attr name="tl_indicator_anim_enable"/>
+        <attr name="tl_indicator_anim_duration"/>
+        <attr name="tl_indicator_bounce_enable"/>
+
+        <!-- divider -->
+        <attr name="tl_divider_color"/>
+        <attr name="tl_divider_width"/>
+        <attr name="tl_divider_padding"/>
+
+        <!-- tab -->
+        <attr name="tl_tab_padding"/>
+        <attr name="tl_tab_space_equal"/>
+        <attr name="tl_tab_width"/>
+
+        <!-- title -->
+        <attr name="tl_textsize"/>
+        <attr name="tl_textSelectColor"/>
+        <attr name="tl_textUnselectColor"/>
+        <attr name="tl_textBold"/>
+        <attr name="tl_textAllCaps"/>
+
+        <attr format="color" name="tl_bar_color"/>
+        <attr format="color" name="tl_bar_stroke_color"/>
+        <attr format="dimension" name="tl_bar_stroke_width"/>
+
+    </declare-styleable>
+    <declare-styleable name="SlidingTabLayout">
+        <!-- indicator -->
+        <attr name="tl_indicator_color"/>
+        <attr name="tl_indicator_height"/>
+        <attr name="tl_indicator_width"/>
+        <attr name="tl_indicator_margin_left"/>
+        <attr name="tl_indicator_margin_top"/>
+        <attr name="tl_indicator_margin_right"/>
+        <attr name="tl_indicator_margin_bottom"/>
+        <attr name="tl_indicator_corner_radius"/>
+        <attr name="tl_indicator_gravity"/>
+        <attr name="tl_indicator_style"/>
+        <attr name="tl_indicator_width_equal_title"/>
+
+        <!-- underline -->
+        <attr name="tl_underline_color"/>
+        <attr name="tl_underline_height"/>
+        <attr name="tl_underline_gravity"/>
+
+        <!-- divider -->
+        <attr name="tl_divider_color"/>
+        <attr name="tl_divider_width"/>
+        <attr name="tl_divider_padding"/>
+
+        <!-- tab -->
+        <attr name="tl_tab_padding"/>
+        <attr name="tl_tab_space_equal"/>
+        <attr name="tl_tab_width"/>
+
+        <!-- title -->
+        <attr name="tl_textsize"/>
+        <attr name="tl_textSelectColor"/>
+        <attr name="tl_textUnselectColor"/>
+        <attr name="tl_textBold"/>
+        <attr name="tl_textAllCaps"/>
+
+    </declare-styleable>
+    <declare-styleable name="pickerview">
+        <attr name="pickerview_gravity">
+            <enum name="center" value="17"/>
+            <enum name="left" value="3"/>
+            <enum name="right" value="5"/>
+        </attr>
+        <attr format="dimension" name="pickerview_textSize"/>
+        <attr format="color" name="pickerview_textColorOut"/>
+        <attr format="color" name="pickerview_textColorCenter"/>
+        <attr format="color" name="pickerview_dividerColor"/>
+        <attr format="float" name="pickerview_lineSpacingMultiplier"/>
+    </declare-styleable>
+</resources>

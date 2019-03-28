@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_add_bank_card"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_40px"
+            android:layout_margin="@dimen/dimen_16px"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="+银行卡"
+            android:textColor="@color/default_text_color"
+            android:textSize="@dimen/text_14px" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recy_banl_car"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

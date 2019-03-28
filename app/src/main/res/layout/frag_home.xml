@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_home_toolbar" />
+
+    <com.yobo.third_sdk.widget.uitrarefresh.UTRefreshLayout
+        android:id="@+id/refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:ptr_duration_to_close="300"
+        app:ptr_duration_to_close_header="2000"
+        app:ptr_keep_header_when_refresh="true"
+        app:ptr_pull_to_fresh="false"
+        app:ptr_ratio_of_header_height_to_refresh="1.2"
+        app:ptr_resistance="1.7">
+
+
+        <com.app.modou.view.CustomScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.yobo.third_sdk.widget.bgabanner.BGABanner
+                    android:id="@+id/banner_home_adv"
+                    style="@style/BannerDefaultStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    app:banner_pointDrawable="@drawable/seletor_banner_point"
+                    app:banner_transitionEffect="defaultEffect" />
+
+                <include layout="@layout/include_home_function" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_10px"
+                    android:background="@color/white"
+                    android:padding="@dimen/dimen_16px">
+
+                    <TextView
+                        android:id="@+id/tv_bill_inform"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="账单通知"
+                        android:textColor="@color/default_text_color"
+                        android:textSize="@dimen/text_16px" />
+
+                    <TextView
+                        android:id="@+id/tv_bill_inform_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="2019-10-10" />
+
+                    <TextView
+                        android:id="@+id/tv_bill_inform_context"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_bill_inform"
+                        android:layout_margin="@dimen/text_16px"
+                        android:text="未有物业账单"
+                        android:textColor="@color/default_hint_color"
+                        android:textSize="@dimen/text_14px" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_below="@+id/tv_bill_inform_context"
+                        android:layout_marginTop="@dimen/dimen_16px"
+                        android:background="@color/view_line" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white">
+
+                    <TextView
+                        android:id="@+id/tv_new_shop"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/dimen_16px"
+                        android:text="蝗灾螺蛳粉新店入驻"
+                        android:textColor="@color/default_text_color"
+                        android:textSize="@dimen/text_16px" />
+
+                    <TextView
+                        android:id="@+id/tv_look_more"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:padding="@dimen/dimen_16px"
+                        android:text="查看更多" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:layout_below="@+id/tv_new_shop"
+                        android:layout_margin="@dimen/dimen_16px"
+                        android:background="@mipmap/icon_welcome" />
+                </RelativeLayout>
+            </LinearLayout>
+        </com.app.modou.view.CustomScrollView>
+    </com.yobo.third_sdk.widget.uitrarefresh.UTRefreshLayout>
+</LinearLayout>

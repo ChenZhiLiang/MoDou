@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="bg">#EDEDED</color>
+
+    <!--87%-->
+    <color name="default_text_color">#333333</color>
+    <!--54%-->
+    <color name="default_hint_color">#666666</color>
+
+    <color name="blue">#2855f5</color>
+</resources>

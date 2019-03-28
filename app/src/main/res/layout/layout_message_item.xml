@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="@dimen/dimen_16px">
+
+    <com.app.modou.view.CircleImageView
+        android:id="@+id/image_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/icon_yuan_ceshi" />
+
+    <TextView
+        android:id="@+id/tv_message_context"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dimen_10px"
+        android:layout_toRightOf="@+id/image_message"
+        android:text="物业公告"
+        android:textColor="@color/default_text_color"
+        android:textSize="@dimen/text_16px" />
+
+    <TextView
+        android:id="@+id/tv_message_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="2019-06-10"
+        android:textColor="@color/default_hint_color"
+        android:textSize="@dimen/text_14px" />
+</RelativeLayout>

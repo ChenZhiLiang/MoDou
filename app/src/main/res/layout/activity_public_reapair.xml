@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_toolbar" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="@dimen/dimen_100px"
+                android:layout_height="@dimen/dimen_30px"
+                android:layout_margin="@dimen/dimen_16px"
+                android:background="@drawable/bg_gray"
+                android:drawableRight="@mipmap/icon_arrow_right"
+                android:gravity="center"
+                android:paddingRight="@dimen/dimen_8px"
+                android:text="融合大地"
+                android:textSize="@dimen/text_12px" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_50px"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="我要报修"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_14px" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="报修记录"
+                    android:textColor="@color/default_hint_color"
+                    android:textSize="@dimen/text_14px" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_16px"
+                android:background="@color/view_line" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_50px"
+                android:drawableRight="@mipmap/icon_arrow_right"
+                android:gravity="center_vertical"
+                android:padding="@dimen/dimen_16px"
+                android:text="报修类型"
+                android:textColor="@color/default_text_color"
+                android:textSize="@dimen/text_14px" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_50px">
+
+                <TextView
+                    android:id="@+id/tv_reapair_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/dimen_16px"
+                    android:gravity="center_vertical"
+                    android:text="报修人"
+                    android:textColor="@color/default_text_color"
+                    android:textSize="@dimen/text_14px" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/tv_reapair_name"
+                    android:gravity="center_vertical"
+                    android:text="（选填）"
+                    android:textColor="@color/default_hint_color"
+                    android:textSize="@dimen/text_14px" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="end|center_vertical"
+                    android:layout_marginRight="@dimen/dimen_16px"
+                    android:background="@color/white"
+                    android:hint="请输入您的称呼"
+                    android:padding="@dimen/dimen_10px"
+                    android:textColor="@color/default_text_color"
+                    android:textSize="@dimen/text_14px" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_50px">
+
+                <TextView
+                    android:id="@+id/tv_reapair_contact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/dimen_16px"
+                    android:gravity="center_vertical"
+                    android:text="联系方式"
+                    android:textColor="@color/default_text_color"
+                    android:textSize="@dimen/text_14px" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/tv_reapair_contact"
+                    android:gravity="center_vertical"
+                    android:text="（选填）"
+                    android:textColor="@color/default_hint_color"
+                    android:textSize="@dimen/text_14px" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="end|center_vertical"
+                    android:layout_marginRight="@dimen/dimen_16px"
+                    android:background="@color/white"
+                    android:hint="请输入您的联系方式"
+                    android:padding="@dimen/dimen_10px"
+                    android:textColor="@color/default_text_color"
+                    android:textSize="@dimen/text_14px" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_reapair_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dimen_50px"
+                    android:layout_marginLeft="@dimen/dimen_16px"
+                    android:gravity="center_vertical"
+                    android:text="详细地址"
+                    android:textColor="@color/default_text_color"
+                    android:textSize="@dimen/text_14px" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="end|center_vertical"
+                    android:layout_marginRight="@dimen/dimen_16px"
+                    android:layout_marginLeft="@dimen/dimen_16px"
+                    android:layout_toRightOf="@+id/tv_reapair_address"
+                    android:background="@color/white"
+                    android:hint="请输入详细地址"
+                    android:padding="@dimen/dimen_10px"
+                    android:textColor="@color/default_text_color"
+                    android:textSize="@dimen/text_14px" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_line" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_16px"
+                android:layout_marginTop="@dimen/dimen_16px"
+                android:gravity="top"
+                android:hint="描述您所遇到的问题"
+                android:minLines="4"
+                android:textColor="@color/default_text_color"
+                android:textSize="@dimen/text_14px"
+                app:met_floatingLabel="normal"
+                app:met_floatingLabelTextColor="@color/black"
+                app:met_floatingLabelTextSize="@dimen/text_14px"
+                app:met_hideUnderline="true" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_20px"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="@dimen/dimen_10px">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="上传图片"
+                    android:textColor="@color/default_text_color"
+                    android:textSize="@dimen/text_16px" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dimen_20px"
+                    android:overScrollMode="never" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_20px"
+                android:background="@color/view_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/dimen_16px">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_40px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_margin="@dimen/dimen_16px"
+                    android:background="@color/blue_sure"
+                    android:text="报修提交"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_14px" />
+            </RelativeLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

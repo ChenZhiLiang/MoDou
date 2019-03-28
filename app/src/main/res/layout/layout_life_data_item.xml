@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/img_goods"
+        android:layout_width="@dimen/dimen_90px"
+        android:layout_height="@dimen/dimen_90px"
+        android:layout_margin="@dimen/dimen_16px"
+        android:background="@mipmap/test"/>
+    <TextView
+        android:id="@+id/tv_goods_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/img_goods"
+        android:layout_marginTop="@dimen/dimen_16px"
+        android:text="蝗灾螺蛳粉"
+        android:textSize="@dimen/text_14px"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/tv_goods_coupon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/img_goods"
+        android:layout_below="@+id/tv_goods_name"
+        android:layout_marginTop="@dimen/dimen_16px"
+        android:text="5元代金券"
+        android:textSize="@dimen/text_12px"
+        android:textColor="@color/default_text_color"/>
+    <TextView
+        android:id="@+id/tv_goods_remain_coupon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/img_goods"
+        android:layout_below="@+id/tv_goods_coupon"
+        android:layout_marginTop="@dimen/dimen_16px"
+        android:text="剩余40张"
+        android:textSize="@dimen/text_12px"
+        android:textColor="@color/default_hint_color"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen_30px"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/bg_blue_border"
+        android:layout_marginRight="@dimen/dimen_16px"
+        android:layout_below="@+id/tv_goods_coupon"
+        android:text="立即领券"
+        android:textSize="@dimen/text_12px"
+        android:textColor="@color/blue"/>
+</RelativeLayout>

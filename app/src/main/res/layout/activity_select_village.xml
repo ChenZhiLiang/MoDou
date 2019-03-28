@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_toolbar" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/dimen_16px">
+
+
+        <RelativeLayout
+            android:id="@+id/rl_community"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/view_community"
+                android:layout_width="@dimen/dimen_2px"
+                android:layout_height="@dimen/dimen_16px"
+                android:background="@color/blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_8px"
+                android:text="社区名称"
+                android:textColor="@color/default_hint_color"
+                android:textSize="@dimen/text_14px" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_40px"
+                android:layout_below="@+id/view_community"
+                android:layout_margin="@dimen/dimen_10px"
+                android:background="@drawable/selector_onclick"
+                android:drawableRight="@mipmap/icon_arrow_right"
+                android:gravity="center_vertical"
+                android:text="点击选择小区"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_14px" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_building_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_community">
+
+            <View
+                android:id="@+id/view_building_no"
+                android:layout_width="@dimen/dimen_2px"
+                android:layout_height="@dimen/dimen_16px"
+                android:background="@color/blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_8px"
+                android:text="楼栋"
+                android:textColor="@color/default_hint_color"
+                android:textSize="@dimen/text_14px" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_40px"
+                android:layout_below="@+id/view_building_no"
+                android:layout_margin="@dimen/dimen_10px"
+                android:background="@drawable/selector_onclick"
+                android:drawableRight="@mipmap/icon_arrow_right"
+                android:gravity="center_vertical"
+                android:text="点击选择楼栋"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_14px" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_unit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_building_no">
+
+            <View
+                android:id="@+id/view_unit"
+                android:layout_width="@dimen/dimen_2px"
+                android:layout_height="@dimen/dimen_16px"
+                android:background="@color/blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_8px"
+                android:text="单元"
+                android:textColor="@color/default_hint_color"
+                android:textSize="@dimen/text_14px" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_40px"
+                android:layout_below="@+id/view_unit"
+                android:layout_margin="@dimen/dimen_10px"
+                android:background="@drawable/selector_onclick"
+                android:drawableRight="@mipmap/icon_arrow_right"
+                android:gravity="center_vertical"
+                android:text="点击选择单元"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_14px" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_room_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rl_unit">
+
+            <View
+                android:id="@+id/view_room_number"
+                android:layout_width="@dimen/dimen_2px"
+                android:layout_height="@dimen/dimen_16px"
+                android:background="@color/blue" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_8px"
+                android:text="单元"
+                android:textColor="@color/default_hint_color"
+                android:textSize="@dimen/text_14px" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_40px"
+                android:layout_below="@+id/view_room_number"
+                android:layout_margin="@dimen/dimen_10px"
+                android:background="@drawable/selector_onclick"
+                android:drawableRight="@mipmap/icon_arrow_right"
+                android:gravity="center_vertical"
+                android:text="点击选择单元"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_14px" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_select_sure"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_40px"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="@dimen/dimen_10px"
+            android:background="@drawable/bg_blue"
+            android:text="确定"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_14px" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:fitsSystemWindows="true">
+
+    <include layout="@layout/include_toolbar"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="@dimen/dimen_16px">
+
+
+            <View
+                android:id="@+id/view_set_pass"
+                android:layout_width="2dp"
+                android:layout_height="@dimen/dimen_20px"
+                android:background="@color/blue"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/view_set_pass"
+                android:layout_marginLeft="@dimen/dimen_16px"
+                android:text="密码"
+                android:textColor="@color/default_hint_color"
+                android:textSize="@dimen/text_12px"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_50px"
+                android:layout_below="@+id/view_set_pass"
+                android:layout_marginTop="@dimen/dimen_10px"
+                android:paddingLeft="@dimen/dimen_10px"
+                android:background="@color/white"
+                android:hint="请输入6位数支付密码"
+                android:textSize="@dimen/text_12px"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="@dimen/dimen_16px"
+            android:layout_marginTop="@dimen/dimen_10px">
+
+
+            <View
+                android:id="@+id/view_set_pass_sure"
+                android:layout_width="2dp"
+                android:layout_height="@dimen/dimen_20px"
+                android:background="@color/blue"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/view_set_pass_sure"
+                android:layout_marginLeft="@dimen/dimen_16px"
+                android:text="密码确认"
+                android:textColor="@color/default_hint_color"
+                android:textSize="@dimen/text_12px"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_50px"
+                android:layout_below="@+id/view_set_pass_sure"
+                android:layout_marginTop="@dimen/dimen_10px"
+                android:paddingLeft="@dimen/dimen_10px"
+                android:background="@color/white"
+                android:hint="请再次确认您的支付密码"
+                android:textSize="@dimen/text_12px"/>
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_40px"
+            android:layout_margin="@dimen/dimen_26px"
+            android:background="@color/gray_btn_bg_color"
+            android:text="确定"
+            android:textColor="@color/default_text_color"
+            android:textSize="@dimen/text_14px"/>
+    </LinearLayout>
+</LinearLayout>

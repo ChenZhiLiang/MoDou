@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:fitsSystemWindows="true">
+
+    <include layout="@layout/include_toolbar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_16px"
+        android:text="可用数量1张"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_14px"/>
+
+    <com.yobo.third_sdk.widget.xrecyclerview.XRecyclerView
+        android:id="@+id/recy_coupon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/dimen_10px"
+        android:layout_marginRight="@dimen/dimen_10px"/>
+</LinearLayout>

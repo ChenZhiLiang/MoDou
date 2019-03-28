@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="E:\MoDou\thirdSDK\src\main\res"/><source path="E:\MoDou\thirdSDK\build\generated\res\rs\debug"/><source path="E:\MoDou\thirdSDK\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="E:\MoDou\thirdSDK\src\main\res"><file name="error_frame_in" path="E:\MoDou\thirdSDK\src\main\res\anim\error_frame_in.xml" qualifiers="" type="anim"/><file name="error_x_in" path="E:\MoDou\thirdSDK\src\main\res\anim\error_x_in.xml" qualifiers="" type="anim"/><file name="modal_in" path="E:\MoDou\thirdSDK\src\main\res\anim\modal_in.xml" qualifiers="" type="anim"/><file name="modal_out" path="E:\MoDou\thirdSDK\src\main\res\anim\modal_out.xml" qualifiers="" type="anim"/><file name="pickerview_dialog_scale_in" path="E:\MoDou\thirdSDK\src\main\res\anim\pickerview_dialog_scale_in.xml" qualifiers="" type="anim"/><file name="pickerview_dialog_scale_out" path="E:\MoDou\thirdSDK\src\main\res\anim\pickerview_dialog_scale_out.xml" qualifiers="" type="anim"/><file name="pickerview_slide_in_bottom" path="E:\MoDou\thirdSDK\src\main\res\anim\pickerview_slide_in_bottom.xml" qualifiers="" type="anim"/><file name="pickerview_slide_out_bottom" path="E:\MoDou\thirdSDK\src\main\res\anim\pickerview_slide_out_bottom.xml" qualifiers="" type="anim"/><file name="success_bow_roate" path="E:\MoDou\thirdSDK\src\main\res\anim\success_bow_roate.xml" qualifiers="" type="anim"/><file name="success_mask_layout" path="E:\MoDou\thirdSDK\src\main\res\anim\success_mask_layout.xml" qualifiers="" type="anim"/><file name="bga_banner_selector_point_hollow" path="E:\MoDou\thirdSDK\src\main\res\drawable\bga_banner_selector_point_hollow.xml" qualifiers="" type="drawable"/><file name="bga_banner_selector_point_solid" path="E:\MoDou\thirdSDK\src\main\res\drawable\bga_banner_selector_point_solid.xml" qualifiers="" type="drawable"/><file name="blue_button_background" path="E:\MoDou\thirdSDK\src\main\res\drawable\blue_button_background.xml" qualifiers="" type="drawable"/><file name="dialog_background" path="E:\MoDou\thirdSDK\src\main\res\drawable\dialog_background.xml" qualifiers="" type="drawable"/><file name="error_center_x" path="E:\MoDou\thirdSDK\src\main\res\drawable\error_center_x.xml" qualifiers="" type="drawable"/><file name="error_circle" path="E:\MoDou\thirdSDK\src\main\res\drawable\error_circle.xml" qualifiers="" type="drawable"/><file name="gray_button_background" path="E:\MoDou\thirdSDK\src\main\res\drawable\gray_button_background.xml" qualifiers="" type="drawable"/><file name="red_button_background" path="E:\MoDou\thirdSDK\src\main\res\drawable\red_button_background.xml" qualifiers="" type="drawable"/><file name="selector_pickerview_btn" path="E:\MoDou\thirdSDK\src\main\res\drawable\selector_pickerview_btn.xml" qualifiers="" type="drawable"/><file name="success_bow" path="E:\MoDou\thirdSDK\src\main\res\drawable\success_bow.xml" qualifiers="" type="drawable"/><file name="success_circle" path="E:\MoDou\thirdSDK\src\main\res\drawable\success_circle.xml" qualifiers="" type="drawable"/><file name="warning_circle" path="E:\MoDou\thirdSDK\src\main\res\drawable\warning_circle.xml" qualifiers="" type="drawable"/><file name="warning_sigh" path="E:\MoDou\thirdSDK\src\main\res\drawable\warning_sigh.xml" qualifiers="" type="drawable"/><file name="alert_dialog" path="E:\MoDou\thirdSDK\src\main\res\layout\alert_dialog.xml" qualifiers="" type="layout"/><file name="bga_banner_item_image" path="E:\MoDou\thirdSDK\src\main\res\layout\bga_banner_item_image.xml" qualifiers="" type="layout"/><file name="cube_ptr_classic_default_header" path="E:\MoDou\thirdSDK\src\main\res\layout\cube_ptr_classic_default_header.xml" qualifiers="" type="layout"/><file name="include_pickerview_topbar" path="E:\MoDou\thirdSDK\src\main\res\layout\include_pickerview_topbar.xml" qualifiers="" type="layout"/><file name="kprogresshud_hud" path="E:\MoDou\thirdSDK\src\main\res\layout\kprogresshud_hud.xml" qualifiers="" type="layout"/><file name="layout_basepickerview" path="E:\MoDou\thirdSDK\src\main\res\layout\layout_basepickerview.xml" qualifiers="" type="layout"/><file name="layout_tab" path="E:\MoDou\thirdSDK\src\main\res\layout\layout_tab.xml" qualifiers="" type="layout"/><file name="layout_tab_bottom" path="E:\MoDou\thirdSDK\src\main\res\layout\layout_tab_bottom.xml" qualifiers="" type="layout"/><file name="layout_tab_left" path="E:\MoDou\thirdSDK\src\main\res\layout\layout_tab_left.xml" qualifiers="" type="layout"/><file name="layout_tab_right" path="E:\MoDou\thirdSDK\src\main\res\layout\layout_tab_right.xml" qualifiers="" type="layout"/><file name="layout_tab_segment" path="E:\MoDou\thirdSDK\src\main\res\layout\layout_tab_segment.xml" qualifiers="" type="layout"/><file name="layout_tab_top" path="E:\MoDou\thirdSDK\src\main\res\layout\layout_tab_top.xml" qualifiers="" type="layout"/><file name="listview_header" path="E:\MoDou\thirdSDK\src\main\res\layout\listview_header.xml" qualifiers="" type="layout"/><file name="pickerview_options" path="E:\MoDou\thirdSDK\src\main\res\layout\pickerview_options.xml" qualifiers="" type="layout"/><file name="pickerview_time" path="E:\MoDou\thirdSDK\src\main\res\layout\pickerview_time.xml" qualifiers="" type="layout"/><file name="toast_layout" path="E:\MoDou\thirdSDK\src\main\res\layout\toast_layout.xml" qualifiers="" type="layout"/><file name="ut_refresh_header_view" path="E:\MoDou\thirdSDK\src\main\res\layout\ut_refresh_header_view.xml" qualifiers="" type="layout"/><file name="view_empty_layout" path="E:\MoDou\thirdSDK\src\main\res\layout\view_empty_layout.xml" qualifiers="" type="layout"/><file name="view_loding_footer" path="E:\MoDou\thirdSDK\src\main\res\layout\view_loding_footer.xml" qualifiers="" type="layout"/><file name="icon_pull_down" path="E:\MoDou\thirdSDK\src\main\res\mipmap-xhdpi\icon_pull_down.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_check_white_48dp" path="E:\MoDou\thirdSDK\src\main\res\mipmap-xhdpi\ic_check_white_48dp.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_clear_white_48dp" path="E:\MoDou\thirdSDK\src\main\res\mipmap-xhdpi\ic_clear_white_48dp.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_error_outline_white_48dp" path="E:\MoDou\thirdSDK\src\main\res\mipmap-xhdpi\ic_error_outline_white_48dp.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_info_outline_white_48dp" path="E:\MoDou\thirdSDK\src\main\res\mipmap-xhdpi\ic_info_outline_white_48dp.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_pulltorefresh_arrow" path="E:\MoDou\thirdSDK\src\main\res\mipmap-xhdpi\ic_pulltorefresh_arrow.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="pagefailed_bg" path="E:\MoDou\thirdSDK\src\main\res\mipmap-xhdpi\pagefailed_bg.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="page_icon_empty" path="E:\MoDou\thirdSDK\src\main\res\mipmap-xhdpi\page_icon_empty.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="page_icon_network" path="E:\MoDou\thirdSDK\src\main\res\mipmap-xhdpi\page_icon_network.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="point_01" path="E:\MoDou\thirdSDK\src\main\res\mipmap-xhdpi\point_01.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="point_02" path="E:\MoDou\thirdSDK\src\main\res\mipmap-xhdpi\point_02.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ptr_rotate_arrow" path="E:\MoDou\thirdSDK\src\main\res\mipmap-xhdpi\ptr_rotate_arrow.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="toast_frame" path="E:\MoDou\thirdSDK\src\main\res\mipmap-xhdpi\toast_frame.9.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_check_white_48dp" path="E:\MoDou\thirdSDK\src\main\res\mipmap-xxhdpi\ic_check_white_48dp.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_clear_white_48dp" path="E:\MoDou\thirdSDK\src\main\res\mipmap-xxhdpi\ic_clear_white_48dp.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_error_outline_white_48dp" path="E:\MoDou\thirdSDK\src\main\res\mipmap-xxhdpi\ic_error_outline_white_48dp.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_info_outline_white_48dp" path="E:\MoDou\thirdSDK\src\main\res\mipmap-xxhdpi\ic_info_outline_white_48dp.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="point_01" path="E:\MoDou\thirdSDK\src\main\res\mipmap-xxhdpi\point_01.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="point_02" path="E:\MoDou\thirdSDK\src\main\res\mipmap-xxhdpi\point_02.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="toast_frame" path="E:\MoDou\thirdSDK\src\main\res\mipmap-xxhdpi\toast_frame.9.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_check_white_48dp" path="E:\MoDou\thirdSDK\src\main\res\mipmap-xxxhdpi\ic_check_white_48dp.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_clear_white_48dp" path="E:\MoDou\thirdSDK\src\main\res\mipmap-xxxhdpi\ic_clear_white_48dp.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_error_outline_white_48dp" path="E:\MoDou\thirdSDK\src\main\res\mipmap-xxxhdpi\ic_error_outline_white_48dp.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_info_outline_white_48dp" path="E:\MoDou\thirdSDK\src\main\res\mipmap-xxxhdpi\ic_info_outline_white_48dp.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="kprogresshud_spinner" path="E:\MoDou\thirdSDK\src\main\res\mipmap-xxxhdpi\kprogresshud_spinner.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="point_01" path="E:\MoDou\thirdSDK\src\main\res\mipmap-xxxhdpi\point_01.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="point_02" path="E:\MoDou\thirdSDK\src\main\res\mipmap-xxxhdpi\point_02.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="qrcode_default_grid_scan_line" path="E:\MoDou\thirdSDK\src\main\res\mipmap-xxxhdpi\qrcode_default_grid_scan_line.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="qrcode_default_scan_line" path="E:\MoDou\thirdSDK\src\main\res\mipmap-xxxhdpi\qrcode_default_scan_line.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file path="E:\MoDou\thirdSDK\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="AVLoadingIndicatorView">
+        <attr name="indicator">
+            <flag name="BallPulse" value="0"/>
+            <flag name="BallGridPulse" value="1"/>
+            <flag name="BallClipRotate" value="2"/>
+            <flag name="BallClipRotatePulse" value="3"/>
+            <flag name="SquareSpin" value="4"/>
+            <flag name="BallClipRotateMultiple" value="5"/>
+            <flag name="BallPulseRise" value="6"/>
+            <flag name="BallRotate" value="7"/>
+            <flag name="CubeTransition" value="8"/>
+            <flag name="BallZigZag" value="9"/>
+            <flag name="BallZigZagDeflect" value="10"/>
+            <flag name="BallTrianglePath" value="11"/>
+            <flag name="BallScale" value="12"/>
+            <flag name="LineScale" value="13"/>
+            <flag name="LineScaleParty" value="14"/>
+            <flag name="BallScaleMultiple" value="15"/>
+            <flag name="BallPulseSync" value="16"/>
+            <flag name="BallBeat" value="17"/>
+            <flag name="LineScalePulseOut" value="18"/>
+            <flag name="LineScalePulseOutRapid" value="19"/>
+            <flag name="BallScaleRipple" value="20"/>
+            <flag name="BallScaleRippleMultiple" value="21"/>
+            <flag name="BallSpinFadeLoader" value="22"/>
+            <flag name="LineSpinFadeLoader" value="23"/>
+            <flag name="TriangleSkewSpin" value="24"/>
+            <flag name="Pacman" value="25"/>
+            <flag name="BallGridBeat" value="26"/>
+            <flag name="SemiCircleSpin" value="27"/>
+        </attr>
+        <attr format="color" name="indicator_color"/>
+    </declare-styleable><declare-styleable name="Rotate3dAnimation">
+        <attr format="enum" name="rollType">
+            <enum name="x" value="0"/>
+            <enum name="y" value="1"/>
+            <enum name="z" value="2"/>
+        </attr>
+        <attr format="float" name="fromDeg"/>
+        <attr format="float" name="toDeg"/>
+        <attr format="fraction" name="pivotX"/>
+        <attr format="fraction" name="pivotY"/>
+    </declare-styleable><declare-styleable name="ProgressWheel">
+        <attr format="boolean" name="matProg_progressIndeterminate"/>
+        <attr format="color" name="matProg_barColor"/>
+        <attr format="color" name="matProg_rimColor"/>
+        <attr format="dimension" name="matProg_rimWidth"/>
+        <attr format="float" name="matProg_spinSpeed"/>
+        <attr format="integer" name="matProg_barSpinCycleTime"/>
+        <attr format="dimension" name="matProg_circleRadius"/>
+        <attr format="boolean" name="matProg_fillRadius"/>
+        <attr format="dimension" name="matProg_barWidth"/>
+        <attr format="boolean" name="matProg_linearProgress"/>
+    </declare-styleable><declare-styleable name="BGABanner">
+        
+        <attr format="reference|color" name="banner_pointContainerBackground"/>
+        
+        <attr format="reference" name="banner_pointDrawable"/>
+        
+        <attr format="dimension" name="banner_pointContainerLeftRightPadding"/>
+        
+        <attr format="dimension" name="banner_pointTopBottomMargin"/>
+        
+        <attr format="dimension" name="banner_pointLeftRightMargin"/>
+        
+        <attr name="banner_indicatorGravity">
+            <flag name="top" value="0x30"/>
+            <flag name="bottom" value="0x50"/>
+            <flag name="left" value="0x03"/>
+            <flag name="right" value="0x05"/>
+            <flag name="center_horizontal" value="0x01"/>
+        </attr>
+        
+        <attr format="boolean" name="banner_pointAutoPlayAble"/>
+        
+        <attr format="integer" name="banner_pointAutoPlayInterval"/>
+        
+        <attr format="integer" name="banner_pageChangeDuration"/>
+        
+        <attr format="enum" name="banner_transitionEffect">
+            <enum name="defaultEffect" value="0"/>
+            <enum name="alpha" value="1"/>
+            <enum name="rotate" value="2"/>
+            <enum name="cube" value="3"/>
+            <enum name="flip" value="4"/>
+            <enum name="accordion" value="5"/>
+            <enum name="zoomFade" value="6"/>
+            <enum name="fade" value="7"/>
+            <enum name="zoomCenter" value="8"/>
+            <enum name="zoomStack" value="9"/>
+            <enum name="stack" value="10"/>
+            <enum name="depth" value="11"/>
+            <enum name="zoom" value="12"/>
+        </attr>
+        
+        <attr format="reference|color" name="banner_tipTextColor"/>
+        
+        <attr format="dimension" name="banner_tipTextSize"/>
+        
+        <attr format="reference" name="banner_placeholderDrawable"/>
+        
+        <attr format="boolean" name="banner_isNumberIndicator"/>
+        
+        <attr format="reference|color" name="banner_numberIndicatorTextColor"/>
+        
+        <attr format="dimension" name="banner_numberIndicatorTextSize"/>
+        
+        <attr format="reference" name="banner_numberIndicatorBackground"/>
+        
+        <attr format="boolean" name="banner_isNeedShowIndicatorOnOnlyOnePage"/>
+        
+        <attr format="dimension" name="banner_contentBottomMargin"/>
+        
+        <attr name="android:scaleType"/>
+    </declare-styleable><declare-styleable name="QRCodeView">
+        
+        <attr format="dimension|reference" name="qrcv_topOffset"/>
+        
+        <attr format="dimension|reference" name="qrcv_cornerSize"/>
+        
+        <attr format="dimension|reference" name="qrcv_cornerLength"/>
+        
+        <attr format="color|reference" name="qrcv_cornerColor"/>
+        
+        <attr format="dimension|reference" name="qrcv_rectWidth"/>
+        
+        <attr format="dimension|reference" name="qrcv_barcodeRectHeight"/>
+        
+        <attr format="color|reference" name="qrcv_maskColor"/>
+        
+        <attr format="dimension|reference" name="qrcv_scanLineSize"/>
+        
+        <attr format="color|reference" name="qrcv_scanLineColor"/>
+        
+        <attr format="dimension|reference" name="qrcv_scanLineMargin"/>
+        
+        <attr format="boolean" name="qrcv_isShowDefaultScanLineDrawable"/>
+        
+        <attr format="reference" name="qrcv_customScanLineDrawable"/>
+        
+        <attr format="dimension|reference" name="qrcv_borderSize"/>
+        
+        <attr format="color|reference" name="qrcv_borderColor"/>
+        
+        <attr format="integer" name="qrcv_animTime"/>
+        
+        <attr format="boolean" name="qrcv_isCenterVertical"/>
+        
+        <attr format="dimension|reference" name="qrcv_toolbarHeight"/>
+        
+        <attr format="boolean" name="qrcv_isBarcode"/>
+        
+        <attr format="string|reference" name="qrcv_qrCodeTipText"/>
+        
+        <attr format="string|reference" name="qrcv_barCodeTipText"/>
+        
+        <attr format="dimension|reference" name="qrcv_tipTextSize"/>
+        
+        <attr format="color|reference" name="qrcv_tipTextColor"/>
+        
+        <attr format="boolean" name="qrcv_isTipTextBelowRect"/>
+        
+        <attr format="dimension|reference" name="qrcv_tipTextMargin"/>
+        
+        <attr format="boolean" name="qrcv_isShowTipTextAsSingleLine"/>
+        
+        <attr format="boolean" name="qrcv_isShowTipBackground"/>
+        
+        <attr format="color|reference" name="qrcv_tipBackgroundColor"/>
+        
+        <attr format="boolean" name="qrcv_isScanLineReverse"/>
+        
+        <attr format="boolean" name="qrcv_isShowDefaultGridScanLineDrawable"/>
+        
+        <attr format="reference" name="qrcv_customGridScanLineDrawable"/>
+        
+        <attr format="boolean" name="qrcv_isOnlyDecodeScanBoxArea"/>
+    </declare-styleable><declare-styleable name="pickerview">
+        <attr name="pickerview_gravity">
+            <enum name="center" value="17"/>
+            <enum name="left" value="3"/>
+            <enum name="right" value="5"/>
+        </attr>
+        <attr format="dimension" name="pickerview_textSize"/>
+        <attr format="color" name="pickerview_textColorOut"/>
+        <attr format="color" name="pickerview_textColorCenter"/>
+        <attr format="color" name="pickerview_dividerColor"/>
+        <attr format="float" name="pickerview_lineSpacingMultiplier"/>
+    </declare-styleable></file><file path="E:\MoDou\thirdSDK\src\main\res\values\colors.xml" qualifiers=""><color name="float_transparent">#00000000</color><color name="sweet_dialog_bg_color">#FFFFFF</color><color name="button_text_color">#FFFFFF</color><color name="gray_btn_bg_color">#D0D0D0</color><color name="gray_btn_bg_pressed_color">#B6B6B6</color><color name="blue_btn_bg_color">#AEDEF4</color><color name="blue_btn_bg_pressed_color">#96BFD2</color><color name="red_btn_bg_color">#DD6B55</color><color name="red_btn_bg_pressed_color">#CD5B55</color><color name="error_stroke_color">#F27474</color><color name="success_stroke_color">#A5DC86</color><color name="trans_success_stroke_color">#33A5DC86</color><color name="warning_stroke_color">#F8BB86</color><color name="text_color">#575757</color><color name="view_line">#EBEBEB</color><color name="kprogresshud_default_color">#b1000000</color><color name="kprogresshud_grey_color">#449E9E9E</color><color name="pickerview_timebtn_nor">#057dff</color><color name="pickerview_timebtn_pre">#c2daf5</color><color name="pickerview_bg_topbar">#f5f5f5</color><color name="pickerview_topbar_title">#000000</color><color name="pickerview_bgColor_overlay">#60000000</color></file><file path="E:\MoDou\thirdSDK\src\main\res\values\cube_ptr_attrs.xml" qualifiers=""><declare-styleable name="PtrFrameLayout">
+        
+        <attr format="reference" name="ptr_header"/>
+        <attr format="reference" name="ptr_content"/>
+
+        
+        <attr format="float" name="ptr_resistance"/>
+
+        
+        <attr format="float" name="ptr_ratio_of_header_height_to_refresh"/>
+
+        <attr format="integer" name="ptr_duration_to_close"/>
+        <attr format="integer" name="ptr_duration_to_close_header"/>
+
+        
+        <attr format="boolean" name="ptr_pull_to_fresh"/>
+
+        
+        <attr format="boolean" name="ptr_keep_header_when_refresh"/>
+    </declare-styleable><declare-styleable name="PtrClassicHeader">
+        <attr format="integer" name="ptr_rotate_ani_time"/>
+    </declare-styleable></file><file path="E:\MoDou\thirdSDK\src\main\res\values\cube_ptr_string.xml" qualifiers=""><string name="cube_ptr_pull_down">下拉</string><string name="cube_ptr_pull_down_to_refresh">下拉刷新</string><string name="cube_ptr_release_to_refresh">释放刷新</string><string name="cube_ptr_refreshing">加载中...</string><string name="cube_ptr_refresh_complete">更新完成.</string><string name="cube_ptr_last_update">上次更新: </string><string name="cube_ptr_seconds_ago"> 秒之前</string><string name="cube_ptr_minutes_ago"> 分钟之前</string><string name="cube_ptr_hours_ago"> 小时之前</string></file><file path="E:\MoDou\thirdSDK\src\main\res\values\dimens.xml" qualifiers=""><dimen name="alert_width">290dp</dimen><dimen name="common_circle_width">3dp</dimen><dimen name="progress_circle_radius">34dp</dimen><dimen name="pickerview_topbar_height">44dp</dimen><dimen name="pickerview_topbar_padding">20dp</dimen><dimen name="pickerview_topbar_btn_textsize">17sp</dimen><dimen name="pickerview_topbar_title_textsize">18sp</dimen><dimen name="pickerview_textsize">20sp</dimen></file><file path="E:\MoDou\thirdSDK\src\main\res\values\ids.xml" qualifiers=""><item name="banner_indicatorId" type="id"/><item name="bgaqrcode_camera_preview" type="id"/></file><file path="E:\MoDou\thirdSDK\src\main\res\values\integers.xml" qualifiers=""><integer name="animation_default_duration">300</integer></file><file path="E:\MoDou\thirdSDK\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">My Library</string><string name="dialog_default_title">提示消息!</string><string name="dialog_ok">确定</string><string name="dialog_cancel">取消</string><string name="listview_header_hint_normal">下拉刷新</string><string name="listview_header_hint_release">释放立即刷新</string><string name="listview_loading">正在加载</string><string name="nomore_loading">我是有底线的</string><string name="refreshing">正在刷新...</string><string name="refresh_done">刷新完成</string><string name="loading_done">加载完成</string><string name="listview_header_last_time">上次更新时间：</string><string name="error_view_no_data">暂无内容</string><string name="error_view_loading">加载中…</string><string name="error_view_load_error_click_to_refresh">内容加载失败\r\n点击重新加载</string><string name="error_view_network_error_click_to_refresh">网络错误\r\n点击重新加载</string><string name="toast_message">Toast message</string><string name="pickerview_cancel">取消</string><string name="pickerview_submit">确定</string><string name="pickerview_year">年</string><string name="pickerview_month">月</string><string name="pickerview_day">日</string><string name="pickerview_hours">时</string><string name="pickerview_minutes">分</string><string name="pickerview_seconds">秒</string></file><file path="E:\MoDou\thirdSDK\src\main\res\values\styles.xml" qualifiers=""><style name="alert_dialog" parent="android:Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@color/float_transparent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style><style name="dialog_blue_button" parent="android:Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">31dp</item>
+        <item name="android:background">@drawable/blue_button_background</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">21dp</item>
+        <item name="android:paddingRight">21dp</item>
+        <item name="android:textColor">@color/button_text_color</item>
+    </style><style name="custom_dialog2" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        
+        <item name="android:windowIsFloating">true</item>
+        
+        <item name="android:windowIsTranslucent">true</item>
+        
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        
+        <item name="android:backgroundDimEnabled">true</item>
+        
+        <item name="android:backgroundDimAmount">0.3</item>
+    </style><style mce_bogus="1" name="pickerview_dialogAnim" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/pickerview_dialog_scale_in</item>
+        <item name="android:windowExitAnimation">@anim/pickerview_dialog_scale_out</item>
+    </style></file><file path="E:\MoDou\thirdSDK\src\main\res\values\tablayout_attrs.xml" qualifiers=""><attr format="color" name="tl_indicator_color"/><attr format="dimension" name="tl_indicator_height"/><attr format="dimension" name="tl_indicator_width"/><attr format="dimension" name="tl_indicator_margin_left"/><attr format="dimension" name="tl_indicator_margin_top"/><attr format="dimension" name="tl_indicator_margin_right"/><attr format="dimension" name="tl_indicator_margin_bottom"/><attr format="dimension" name="tl_indicator_corner_radius"/><attr format="enum" name="tl_indicator_gravity">
+        <enum name="TOP" value="48"/>
+        <enum name="BOTTOM" value="80"/>
+    </attr><attr format="enum" name="tl_indicator_style">
+        <enum name="NORMAL" value="0"/>
+        <enum name="TRIANGLE" value="1"/>
+        <enum name="BLOCK" value="2"/>
+    </attr><attr format="boolean" name="tl_indicator_width_equal_title"/><attr format="boolean" name="tl_indicator_anim_enable"/><attr format="integer" name="tl_indicator_anim_duration"/><attr format="boolean" name="tl_indicator_bounce_enable"/><attr format="color" name="tl_underline_color"/><attr format="dimension" name="tl_underline_height"/><attr format="enum" name="tl_underline_gravity">
+        <enum name="TOP" value="48"/>
+        <enum name="BOTTOM" value="80"/>
+    </attr><attr format="color" name="tl_divider_color"/><attr format="dimension" name="tl_divider_width"/><attr format="dimension" name="tl_divider_padding"/><attr format="dimension" name="tl_tab_padding"/><attr format="boolean" name="tl_tab_space_equal"/><attr format="dimension" name="tl_tab_width"/><attr format="dimension" name="tl_textsize"/><attr format="color" name="tl_textSelectColor"/><attr format="color" name="tl_textUnselectColor"/><attr format="enum" name="tl_textBold">
+        <enum name="NONE" value="0"/>
+        <enum name="SELECT" value="1"/>
+        <enum name="BOTH" value="2"/>
+    </attr><attr format="boolean" name="tl_textAllCaps"/><declare-styleable name="SlidingTabLayout">
+        
+        <attr name="tl_indicator_color"/>
+        <attr name="tl_indicator_height"/>
+        <attr name="tl_indicator_width"/>
+        <attr name="tl_indicator_margin_left"/>
+        <attr name="tl_indicator_margin_top"/>
+        <attr name="tl_indicator_margin_right"/>
+        <attr name="tl_indicator_margin_bottom"/>
+        <attr name="tl_indicator_corner_radius"/>
+        <attr name="tl_indicator_gravity"/>
+        <attr name="tl_indicator_style"/>
+        <attr name="tl_indicator_width_equal_title"/>
+
+        
+        <attr name="tl_underline_color"/>
+        <attr name="tl_underline_height"/>
+        <attr name="tl_underline_gravity"/>
+
+        
+        <attr name="tl_divider_color"/>
+        <attr name="tl_divider_width"/>
+        <attr name="tl_divider_padding"/>
+
+        
+        <attr name="tl_tab_padding"/>
+        <attr name="tl_tab_space_equal"/>
+        <attr name="tl_tab_width"/>
+
+        
+        <attr name="tl_textsize"/>
+        <attr name="tl_textSelectColor"/>
+        <attr name="tl_textUnselectColor"/>
+        <attr name="tl_textBold"/>
+        <attr name="tl_textAllCaps"/>
+
+    </declare-styleable><declare-styleable name="CommonTabLayout">
+        
+        <attr name="tl_indicator_color"/>
+        <attr name="tl_indicator_height"/>
+        <attr name="tl_indicator_width"/>
+        <attr name="tl_indicator_margin_left"/>
+        <attr name="tl_indicator_margin_top"/>
+        <attr name="tl_indicator_margin_right"/>
+        <attr name="tl_indicator_margin_bottom"/>
+        <attr name="tl_indicator_corner_radius"/>
+        <attr name="tl_indicator_gravity"/>
+        <attr name="tl_indicator_style"/>
+        <attr name="tl_indicator_anim_enable"/>
+        <attr name="tl_indicator_anim_duration"/>
+        <attr name="tl_indicator_bounce_enable"/>
+
+        
+        <attr name="tl_underline_color"/>
+        <attr name="tl_underline_height"/>
+        <attr name="tl_underline_gravity"/>
+
+        
+        <attr name="tl_divider_color"/>
+        <attr name="tl_divider_width"/>
+        <attr name="tl_divider_padding"/>
+
+        
+        <attr name="tl_tab_padding"/>
+        <attr name="tl_tab_space_equal"/>
+        <attr name="tl_tab_width"/>
+
+        
+        <attr name="tl_textsize"/>
+        <attr name="tl_textSelectColor"/>
+        <attr name="tl_textUnselectColor"/>
+        <attr name="tl_textBold"/>
+        <attr name="tl_textAllCaps"/>
+
+        
+        
+        <attr format="dimension" name="tl_iconWidth"/>
+        
+        <attr format="dimension" name="tl_iconHeight"/>
+        
+        <attr format="boolean" name="tl_iconVisible"/>
+        
+        <attr format="enum" name="tl_iconGravity">
+            <enum name="LEFT" value="3"/>
+            <enum name="TOP" value="48"/>
+            <enum name="RIGHT" value="5"/>
+            <enum name="BOTTOM" value="80"/>
+        </attr>
+        
+        <attr format="dimension" name="tl_iconMargin"/>
+
+    </declare-styleable><declare-styleable name="SegmentTabLayout">
+        
+        <attr name="tl_indicator_color"/>
+        <attr name="tl_indicator_height"/>
+        <attr name="tl_indicator_margin_left"/>
+        <attr name="tl_indicator_margin_top"/>
+        <attr name="tl_indicator_margin_right"/>
+        <attr name="tl_indicator_margin_bottom"/>
+        <attr name="tl_indicator_corner_radius"/>
+        <attr name="tl_indicator_anim_enable"/>
+        <attr name="tl_indicator_anim_duration"/>
+        <attr name="tl_indicator_bounce_enable"/>
+
+        
+        <attr name="tl_divider_color"/>
+        <attr name="tl_divider_width"/>
+        <attr name="tl_divider_padding"/>
+
+        
+        <attr name="tl_tab_padding"/>
+        <attr name="tl_tab_space_equal"/>
+        <attr name="tl_tab_width"/>
+
+        
+        <attr name="tl_textsize"/>
+        <attr name="tl_textSelectColor"/>
+        <attr name="tl_textUnselectColor"/>
+        <attr name="tl_textBold"/>
+        <attr name="tl_textAllCaps"/>
+
+        <attr format="color" name="tl_bar_color"/>
+        <attr format="color" name="tl_bar_stroke_color"/>
+        <attr format="dimension" name="tl_bar_stroke_width"/>
+
+    </declare-styleable><declare-styleable name="MsgView">
+        
+        <attr format="color" name="mv_backgroundColor"/>
+        
+        <attr format="dimension" name="mv_cornerRadius"/>
+        
+        <attr format="dimension" name="mv_strokeWidth"/>
+        
+        <attr format="color" name="mv_strokeColor"/>
+        
+        <attr format="boolean" name="mv_isRadiusHalfHeight"/>
+        
+        <attr format="boolean" name="mv_isWidthHeightEqual"/>
+    </declare-styleable></file></source><source path="E:\MoDou\thirdSDK\build\generated\res\rs\debug"/><source path="E:\MoDou\thirdSDK\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="E:\MoDou\thirdSDK\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="E:\MoDou\thirdSDK\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="SegmentTabLayout">
+        
+        <attr name="tl_indicator_color"/>
+        <attr name="tl_indicator_height"/>
+        <attr name="tl_indicator_margin_left"/>
+        <attr name="tl_indicator_margin_top"/>
+        <attr name="tl_indicator_margin_right"/>
+        <attr name="tl_indicator_margin_bottom"/>
+        <attr name="tl_indicator_corner_radius"/>
+        <attr name="tl_indicator_anim_enable"/>
+        <attr name="tl_indicator_anim_duration"/>
+        <attr name="tl_indicator_bounce_enable"/>
+
+        
+        <attr name="tl_divider_color"/>
+        <attr name="tl_divider_width"/>
+        <attr name="tl_divider_padding"/>
+
+        
+        <attr name="tl_tab_padding"/>
+        <attr name="tl_tab_space_equal"/>
+        <attr name="tl_tab_width"/>
+
+        
+        <attr name="tl_textsize"/>
+        <attr name="tl_textSelectColor"/>
+        <attr name="tl_textUnselectColor"/>
+        <attr name="tl_textBold"/>
+        <attr name="tl_textAllCaps"/>
+
+        <attr format="color" name="tl_bar_color"/>
+        <attr format="color" name="tl_bar_stroke_color"/>
+        <attr format="dimension" name="tl_bar_stroke_width"/>
+
+    </declare-styleable><declare-styleable name="CommonTabLayout">
+        
+        <attr name="tl_indicator_color"/>
+        <attr name="tl_indicator_height"/>
+        <attr name="tl_indicator_width"/>
+        <attr name="tl_indicator_margin_left"/>
+        <attr name="tl_indicator_margin_top"/>
+        <attr name="tl_indicator_margin_right"/>
+        <attr name="tl_indicator_margin_bottom"/>
+        <attr name="tl_indicator_corner_radius"/>
+        <attr name="tl_indicator_gravity"/>
+        <attr name="tl_indicator_style"/>
+        <attr name="tl_indicator_anim_enable"/>
+        <attr name="tl_indicator_anim_duration"/>
+        <attr name="tl_indicator_bounce_enable"/>
+
+        
+        <attr name="tl_underline_color"/>
+        <attr name="tl_underline_height"/>
+        <attr name="tl_underline_gravity"/>
+
+        
+        <attr name="tl_divider_color"/>
+        <attr name="tl_divider_width"/>
+        <attr name="tl_divider_padding"/>
+
+        
+        <attr name="tl_tab_padding"/>
+        <attr name="tl_tab_space_equal"/>
+        <attr name="tl_tab_width"/>
+
+        
+        <attr name="tl_textsize"/>
+        <attr name="tl_textSelectColor"/>
+        <attr name="tl_textUnselectColor"/>
+        <attr name="tl_textBold"/>
+        <attr name="tl_textAllCaps"/>
+
+        
+        
+        <attr format="dimension" name="tl_iconWidth"/>
+        
+        <attr format="dimension" name="tl_iconHeight"/>
+        
+        <attr format="boolean" name="tl_iconVisible"/>
+        
+        <attr format="enum" name="tl_iconGravity">
+            <enum name="LEFT" value="3"/>
+            <enum name="TOP" value="48"/>
+            <enum name="RIGHT" value="5"/>
+            <enum name="BOTTOM" value="80"/>
+        </attr>
+        
+        <attr format="dimension" name="tl_iconMargin"/>
+
+    </declare-styleable><declare-styleable name="PtrClassicHeader">
+        <attr format="integer" name="ptr_rotate_ani_time"/>
+    </declare-styleable><declare-styleable name="PtrFrameLayout">
+        
+        <attr format="reference" name="ptr_header"/>
+        <attr format="reference" name="ptr_content"/>
+
+        
+        <attr format="float" name="ptr_resistance"/>
+
+        
+        <attr format="float" name="ptr_ratio_of_header_height_to_refresh"/>
+
+        <attr format="integer" name="ptr_duration_to_close"/>
+        <attr format="integer" name="ptr_duration_to_close_header"/>
+
+        
+        <attr format="boolean" name="ptr_pull_to_fresh"/>
+
+        
+        <attr format="boolean" name="ptr_keep_header_when_refresh"/>
+    </declare-styleable><declare-styleable name="QRCodeView">
+        
+        <attr format="dimension|reference" name="qrcv_topOffset"/>
+        
+        <attr format="dimension|reference" name="qrcv_cornerSize"/>
+        
+        <attr format="dimension|reference" name="qrcv_cornerLength"/>
+        
+        <attr format="color|reference" name="qrcv_cornerColor"/>
+        
+        <attr format="dimension|reference" name="qrcv_rectWidth"/>
+        
+        <attr format="dimension|reference" name="qrcv_barcodeRectHeight"/>
+        
+        <attr format="color|reference" name="qrcv_maskColor"/>
+        
+        <attr format="dimension|reference" name="qrcv_scanLineSize"/>
+        
+        <attr format="color|reference" name="qrcv_scanLineColor"/>
+        
+        <attr format="dimension|reference" name="qrcv_scanLineMargin"/>
+        
+        <attr format="boolean" name="qrcv_isShowDefaultScanLineDrawable"/>
+        
+        <attr format="reference" name="qrcv_customScanLineDrawable"/>
+        
+        <attr format="dimension|reference" name="qrcv_borderSize"/>
+        
+        <attr format="color|reference" name="qrcv_borderColor"/>
+        
+        <attr format="integer" name="qrcv_animTime"/>
+        
+        <attr format="boolean" name="qrcv_isCenterVertical"/>
+        
+        <attr format="dimension|reference" name="qrcv_toolbarHeight"/>
+        
+        <attr format="boolean" name="qrcv_isBarcode"/>
+        
+        <attr format="string|reference" name="qrcv_qrCodeTipText"/>
+        
+        <attr format="string|reference" name="qrcv_barCodeTipText"/>
+        
+        <attr format="dimension|reference" name="qrcv_tipTextSize"/>
+        
+        <attr format="color|reference" name="qrcv_tipTextColor"/>
+        
+        <attr format="boolean" name="qrcv_isTipTextBelowRect"/>
+        
+        <attr format="dimension|reference" name="qrcv_tipTextMargin"/>
+        
+        <attr format="boolean" name="qrcv_isShowTipTextAsSingleLine"/>
+        
+        <attr format="boolean" name="qrcv_isShowTipBackground"/>
+        
+        <attr format="color|reference" name="qrcv_tipBackgroundColor"/>
+        
+        <attr format="boolean" name="qrcv_isScanLineReverse"/>
+        
+        <attr format="boolean" name="qrcv_isShowDefaultGridScanLineDrawable"/>
+        
+        <attr format="reference" name="qrcv_customGridScanLineDrawable"/>
+        
+        <attr format="boolean" name="qrcv_isOnlyDecodeScanBoxArea"/>
+    </declare-styleable><declare-styleable name="AVLoadingIndicatorView">
+        <attr name="indicator">
+            <flag name="BallPulse" value="0"/>
+            <flag name="BallGridPulse" value="1"/>
+            <flag name="BallClipRotate" value="2"/>
+            <flag name="BallClipRotatePulse" value="3"/>
+            <flag name="SquareSpin" value="4"/>
+            <flag name="BallClipRotateMultiple" value="5"/>
+            <flag name="BallPulseRise" value="6"/>
+            <flag name="BallRotate" value="7"/>
+            <flag name="CubeTransition" value="8"/>
+            <flag name="BallZigZag" value="9"/>
+            <flag name="BallZigZagDeflect" value="10"/>
+            <flag name="BallTrianglePath" value="11"/>
+            <flag name="BallScale" value="12"/>
+            <flag name="LineScale" value="13"/>
+            <flag name="LineScaleParty" value="14"/>
+            <flag name="BallScaleMultiple" value="15"/>
+            <flag name="BallPulseSync" value="16"/>
+            <flag name="BallBeat" value="17"/>
+            <flag name="LineScalePulseOut" value="18"/>
+            <flag name="LineScalePulseOutRapid" value="19"/>
+            <flag name="BallScaleRipple" value="20"/>
+            <flag name="BallScaleRippleMultiple" value="21"/>
+            <flag name="BallSpinFadeLoader" value="22"/>
+            <flag name="LineSpinFadeLoader" value="23"/>
+            <flag name="TriangleSkewSpin" value="24"/>
+            <flag name="Pacman" value="25"/>
+            <flag name="BallGridBeat" value="26"/>
+            <flag name="SemiCircleSpin" value="27"/>
+        </attr>
+        <attr format="color" name="indicator_color"/>
+    </declare-styleable><declare-styleable name="ProgressWheel">
+        <attr format="boolean" name="matProg_progressIndeterminate"/>
+        <attr format="color" name="matProg_barColor"/>
+        <attr format="color" name="matProg_rimColor"/>
+        <attr format="dimension" name="matProg_rimWidth"/>
+        <attr format="float" name="matProg_spinSpeed"/>
+        <attr format="integer" name="matProg_barSpinCycleTime"/>
+        <attr format="dimension" name="matProg_circleRadius"/>
+        <attr format="boolean" name="matProg_fillRadius"/>
+        <attr format="dimension" name="matProg_barWidth"/>
+        <attr format="boolean" name="matProg_linearProgress"/>
+    </declare-styleable><declare-styleable name="MsgView">
+        
+        <attr format="color" name="mv_backgroundColor"/>
+        
+        <attr format="dimension" name="mv_cornerRadius"/>
+        
+        <attr format="dimension" name="mv_strokeWidth"/>
+        
+        <attr format="color" name="mv_strokeColor"/>
+        
+        <attr format="boolean" name="mv_isRadiusHalfHeight"/>
+        
+        <attr format="boolean" name="mv_isWidthHeightEqual"/>
+    </declare-styleable><declare-styleable name="Rotate3dAnimation">
+        <attr format="enum" name="rollType">
+            <enum name="x" value="0"/>
+            <enum name="y" value="1"/>
+            <enum name="z" value="2"/>
+        </attr>
+        <attr format="float" name="fromDeg"/>
+        <attr format="float" name="toDeg"/>
+        <attr format="fraction" name="pivotX"/>
+        <attr format="fraction" name="pivotY"/>
+    </declare-styleable><declare-styleable name="SlidingTabLayout">
+        
+        <attr name="tl_indicator_color"/>
+        <attr name="tl_indicator_height"/>
+        <attr name="tl_indicator_width"/>
+        <attr name="tl_indicator_margin_left"/>
+        <attr name="tl_indicator_margin_top"/>
+        <attr name="tl_indicator_margin_right"/>
+        <attr name="tl_indicator_margin_bottom"/>
+        <attr name="tl_indicator_corner_radius"/>
+        <attr name="tl_indicator_gravity"/>
+        <attr name="tl_indicator_style"/>
+        <attr name="tl_indicator_width_equal_title"/>
+
+        
+        <attr name="tl_underline_color"/>
+        <attr name="tl_underline_height"/>
+        <attr name="tl_underline_gravity"/>
+
+        
+        <attr name="tl_divider_color"/>
+        <attr name="tl_divider_width"/>
+        <attr name="tl_divider_padding"/>
+
+        
+        <attr name="tl_tab_padding"/>
+        <attr name="tl_tab_space_equal"/>
+        <attr name="tl_tab_width"/>
+
+        
+        <attr name="tl_textsize"/>
+        <attr name="tl_textSelectColor"/>
+        <attr name="tl_textUnselectColor"/>
+        <attr name="tl_textBold"/>
+        <attr name="tl_textAllCaps"/>
+
+    </declare-styleable><declare-styleable name="pickerview">
+        <attr name="pickerview_gravity">
+            <enum name="center" value="17"/>
+            <enum name="left" value="3"/>
+            <enum name="right" value="5"/>
+        </attr>
+        <attr format="dimension" name="pickerview_textSize"/>
+        <attr format="color" name="pickerview_textColorOut"/>
+        <attr format="color" name="pickerview_textColorCenter"/>
+        <attr format="color" name="pickerview_dividerColor"/>
+        <attr format="float" name="pickerview_lineSpacingMultiplier"/>
+    </declare-styleable><declare-styleable name="BGABanner">
+        
+        <attr format="reference|color" name="banner_pointContainerBackground"/>
+        
+        <attr format="reference" name="banner_pointDrawable"/>
+        
+        <attr format="dimension" name="banner_pointContainerLeftRightPadding"/>
+        
+        <attr format="dimension" name="banner_pointTopBottomMargin"/>
+        
+        <attr format="dimension" name="banner_pointLeftRightMargin"/>
+        
+        <attr name="banner_indicatorGravity">
+            <flag name="top" value="0x30"/>
+            <flag name="bottom" value="0x50"/>
+            <flag name="left" value="0x03"/>
+            <flag name="right" value="0x05"/>
+            <flag name="center_horizontal" value="0x01"/>
+        </attr>
+        
+        <attr format="boolean" name="banner_pointAutoPlayAble"/>
+        
+        <attr format="integer" name="banner_pointAutoPlayInterval"/>
+        
+        <attr format="integer" name="banner_pageChangeDuration"/>
+        
+        <attr format="enum" name="banner_transitionEffect">
+            <enum name="defaultEffect" value="0"/>
+            <enum name="alpha" value="1"/>
+            <enum name="rotate" value="2"/>
+            <enum name="cube" value="3"/>
+            <enum name="flip" value="4"/>
+            <enum name="accordion" value="5"/>
+            <enum name="zoomFade" value="6"/>
+            <enum name="fade" value="7"/>
+            <enum name="zoomCenter" value="8"/>
+            <enum name="zoomStack" value="9"/>
+            <enum name="stack" value="10"/>
+            <enum name="depth" value="11"/>
+            <enum name="zoom" value="12"/>
+        </attr>
+        
+        <attr format="reference|color" name="banner_tipTextColor"/>
+        
+        <attr format="dimension" name="banner_tipTextSize"/>
+        
+        <attr format="reference" name="banner_placeholderDrawable"/>
+        
+        <attr format="boolean" name="banner_isNumberIndicator"/>
+        
+        <attr format="reference|color" name="banner_numberIndicatorTextColor"/>
+        
+        <attr format="dimension" name="banner_numberIndicatorTextSize"/>
+        
+        <attr format="reference" name="banner_numberIndicatorBackground"/>
+        
+        <attr format="boolean" name="banner_isNeedShowIndicatorOnOnlyOnePage"/>
+        
+        <attr format="dimension" name="banner_contentBottomMargin"/>
+        
+        <attr name="android:scaleType"/>
+    </declare-styleable></configuration></mergedItems></merger>

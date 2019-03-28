@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_toolbar" />
+
+
+    <com.app.modou.view.CustomScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_10px"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dimen_16px">
+
+                    <View
+                        android:id="@+id/view_residential_area"
+                        android:layout_width="@dimen/dimen_2px"
+                        android:layout_height="@dimen/dimen_16px"
+                        android:layout_centerVertical="true"
+                        android:background="@color/blue" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/dimen_8px"
+                        android:layout_toRightOf="@+id/view_residential_area"
+                        android:layerType="hardware"
+                        android:text="楼盘小区"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_14px" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layerType="hardware"
+                        android:text="融合上税绿城"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_14px" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dimen_16px">
+
+                    <View
+                        android:id="@+id/view_room_number"
+                        android:layout_width="@dimen/dimen_2px"
+                        android:layout_height="@dimen/dimen_16px"
+                        android:layout_centerVertical="true"
+                        android:background="@color/blue" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/dimen_8px"
+                        android:layout_toRightOf="@+id/view_room_number"
+
+                        android:layerType="hardware"
+                        android:text="楼栋单元房号"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_14px" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layerType="hardware"
+                        android:text="01栋A单元2203号"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_14px" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dimen_16px">
+
+                    <View
+                        android:id="@+id/view_acreage"
+                        android:layout_width="@dimen/dimen_2px"
+                        android:layout_height="@dimen/dimen_16px"
+                        android:layout_centerVertical="true"
+                        android:background="@color/blue" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/dimen_8px"
+                        android:layout_toRightOf="@+id/view_acreage"
+                        android:text="缴费面积"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_14px" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:text="150㎡"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_14px" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_10px"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="@dimen/dimen_16px">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="缴费项目"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_14px" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text="应缴日期"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_14px" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="end"
+                        android:text="应缴金额"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_14px" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/dimen_16px"
+                    android:layout_marginBottom="@dimen/dimen_10px"
+                    android:background="@color/view_line" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="水费"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_14px" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="2019-10-01"
+                            android:textColor="@color/default_hint_color"
+                            android:textSize="@dimen/text_12px" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dimen_4px"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:text="2019-10-30"
+                            android:textColor="@color/default_hint_color"
+                            android:textSize="@dimen/text_12px" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="end"
+                        android:text="50.00"
+                        android:textColor="@color/default_text_color"
+                        android:textSize="@dimen/text_14px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_10px"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="电费"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_14px" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="2019-10-01"
+                            android:textColor="@color/default_hint_color"
+                            android:textSize="@dimen/text_12px" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dimen_4px"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:text="2019-10-30"
+                            android:textColor="@color/default_hint_color"
+                            android:textSize="@dimen/text_12px" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="end"
+                        android:text="80.00"
+                        android:textColor="@color/default_text_color"
+                        android:textSize="@dimen/text_14px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_10px"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="物业管理费"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_14px" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="2019-10-01"
+                            android:textColor="@color/default_hint_color"
+                            android:textSize="@dimen/text_12px" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dimen_4px"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:text="2019-10-30"
+                            android:textColor="@color/default_hint_color"
+                            android:textSize="@dimen/text_12px" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="end"
+                        android:text="100.00"
+                        android:textColor="@color/default_text_color"
+                        android:textSize="@dimen/text_14px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_10px"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="垃圾清运费"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_14px" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="2019-10-01"
+                            android:textColor="@color/default_hint_color"
+                            android:textSize="@dimen/text_12px" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dimen_4px"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:text="2019-10-30"
+                            android:textColor="@color/default_hint_color"
+                            android:textSize="@dimen/text_12px" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="end"
+                        android:text="20.00"
+                        android:textColor="@color/default_text_color"
+                        android:textSize="@dimen/text_14px" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_16px"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="全选"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_14px" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="end"
+                        android:text="缴费合计：250.00"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_14px" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="@dimen/dimen_10px"
+                android:background="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dimen_8px"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="我已约定并同意"
+                        android:textColor="@color/default_hint_color"
+                        android:textSize="@dimen/text_14px" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="《缴费协议》"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/text_14px" />
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_40px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_margin="@dimen/dimen_16px"
+                    android:background="@drawable/bg_blue"
+                    android:text="立即缴费"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_14px" />
+            </RelativeLayout>
+        </LinearLayout>
+    </com.app.modou.view.CustomScrollView>
+</LinearLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_toolbar" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_24px"
+        android:text="欢迎使用魔豆科技"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_18px" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/edit_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_16px"
+        android:layout_marginTop="@dimen/dimen_30px"
+        android:layout_marginRight="@dimen/dimen_16px"
+        android:hint="请输入您的手机号码"
+        android:paddingLeft="@dimen/dimen_8px"
+        android:textColor="@color/default_text_color"
+        android:textSize="@dimen/text_14px"
+        app:met_clearButton="true"
+        app:met_floatingLabel="normal"
+        app:met_floatingLabelTextColor="@color/black"
+        app:met_floatingLabelTextSize="@dimen/text_14px"
+        app:met_underlineColor="@color/view_line" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edit_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_16px"
+            android:layout_marginTop="@dimen/dimen_16px"
+            android:layout_marginRight="@dimen/dimen_10px"
+            android:layout_toLeftOf="@+id/btn_get_code"
+            android:hint="请输入验证码"
+            android:inputType="number"
+            android:paddingLeft="@dimen/dimen_8px"
+            android:textColor="@color/default_text_color"
+            android:textSize="@dimen/text_14px"
+            app:met_clearButton="true"
+            app:met_floatingLabel="normal"
+            app:met_floatingLabelTextColor="@color/black"
+            app:met_floatingLabelTextSize="@dimen/text_14px"
+            app:met_hideUnderline="true" />
+
+        <Button
+            android:id="@+id/btn_get_code"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen_30px"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dimen_16px"
+            android:background="@drawable/bg_blue_border"
+            android:text="获取验证码"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_12px" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/edit_code"
+            android:layout_marginLeft="@dimen/dimen_16px"
+            android:layout_marginRight="@dimen/dimen_16px"
+            android:background="@color/view_line" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_16px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_10px"
+            android:text="注册"
+            android:textColor="@color/default_text_color"
+            android:textSize="@dimen/text_14px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_16px"
+            android:padding="@dimen/dimen_10px"
+            android:text="忘记密码？"
+            android:textColor="@color/default_text_color"
+            android:textSize="@dimen/text_14px" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_40px"
+        android:layout_margin="@dimen/dimen_32px"
+        android:background="@color/blue_sure"
+        android:text="登录"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_14px" />
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_home_toolbar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_16px"
+        android:background="@drawable/bg_gray"
+        android:drawableRight="@mipmap/icon_arrow_right"
+        android:drawablePadding="@dimen/dimen_10px"
+        android:paddingLeft="@dimen/dimen_32px"
+        android:paddingTop="@dimen/dimen_10px"
+        android:paddingRight="@dimen/dimen_20px"
+        android:paddingBottom="@dimen/dimen_10px"
+        android:text="请选择小区" />
+
+    <include layout="@layout/layout_tab_item"/>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg" />
+
+
+
+</LinearLayout>

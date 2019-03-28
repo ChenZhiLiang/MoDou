@@ -1,0 +1,8 @@
+include ':app',"thirdSDK",':ucrop', ':picture_library'
+
+//集成flutter
+//setBinding(new Binding([gradle: this]))
+////evaluate(new File(
+////        settingsDir.parentFile,
+////        'MDFlutter\\.android\\include_flutter.groovy'
+////))

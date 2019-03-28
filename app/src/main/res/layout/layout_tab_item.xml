@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/ll_cate"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_cate"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen_50px"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="美食"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_14px" />
+
+        <View
+            android:id="@+id/view_cate"
+            android:layout_width="60dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/blue" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_recreation"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_recreation"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen_50px"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="娱乐"
+            android:textColor="@color/default_text_color"
+            android:textSize="@dimen/text_14px" />
+
+        <View
+            android:id="@+id/view_recreation"
+            android:layout_width="60dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/blue"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_service"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_service"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen_50px"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="美食"
+            android:textColor="@color/default_text_color"
+            android:textSize="@dimen/text_14px" />
+
+        <View
+            android:id="@+id/view_service"
+            android:layout_width="60dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/blue"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"></LinearLayout>
+</LinearLayout>

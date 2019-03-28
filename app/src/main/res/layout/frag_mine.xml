@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_home_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/icon_mine_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="16dp"
+            android:padding="@dimen/dimen_10px"
+            android:text="@string/setting"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_14px" />
+
+
+        <RelativeLayout
+            android:id="@+id/rt_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/dimen_16px">
+
+            <ImageView
+                android:id="@+id/image_mine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/icon_mine_yuan" />
+
+            <TextView
+                android:id="@+id/tv_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image_mine"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/dimen_8px"
+                android:text="点击登录"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_16px" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_16px"
+            android:orientation="horizontal"
+            android:padding="@dimen/dimen_10px">
+
+            <TextView
+                android:id="@+id/tv_coupon"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@mipmap/icon_yuan_ceshi"
+                android:drawablePadding="@dimen/dimen_8px"
+                android:gravity="center"
+                android:text="优惠券"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_14px" />
+
+            <TextView
+                android:id="@+id/tv_wallet"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@mipmap/icon_yuan_ceshi"
+                android:drawablePadding="@dimen/dimen_8px"
+                android:gravity="center"
+                android:text="我的钱包"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_14px" />
+
+            <TextView
+                android:id="@+id/tv_bank_card"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@mipmap/icon_yuan_ceshi"
+                android:drawablePadding="@dimen/dimen_8px"
+                android:gravity="center"
+                android:text="我的银行卡"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_14px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_16px"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:padding="@dimen/dimen_10px">
+
+            <TextView
+                android:id="@+id/tv_order"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@mipmap/icon_yuan_ceshi"
+                android:drawablePadding="@dimen/dimen_8px"
+                android:gravity="center"
+                android:text="我的订单"
+                android:textColor="@color/default_text_color"
+                android:textSize="@dimen/text_14px" />
+
+            <TextView
+                android:id="@+id/tv_bill"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@mipmap/icon_yuan_ceshi"
+                android:drawablePadding="@dimen/dimen_8px"
+                android:gravity="center"
+                android:text="物业账单"
+                android:textColor="@color/default_text_color"
+                android:textSize="@dimen/text_14px" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
